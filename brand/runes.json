@@ -1,0 +1,1158 @@
+{
+  "system": "Runes",
+  "version": 1,
+  "construction": {
+    "canvas": 64,
+    "grid": 7,
+    "unit": 8,
+    "padding": 4,
+    "curves": false,
+    "canonicalColors": 1,
+    "applicationColors": 2
+  },
+  "master": {
+    "slug": "runes",
+    "name": "Runes",
+    "category": "system",
+    "source": "https://github.com/samzong/Runes",
+    "tagline": "One alphabet. Every surface.",
+    "rationale": "A type case holds two active sorts inside a continuous frame, representing one authored language that can keep receiving new characters.",
+    "grid": [
+      "1111111",
+      "1001001",
+      "1011101",
+      "1001001",
+      "1011101",
+      "1001001",
+      "1111111"
+    ],
+    "accent": "blue",
+    "signal": [
+      [2, 2],
+      [3, 2],
+      [4, 2],
+      [2, 4],
+      [3, 4],
+      [4, 4]
+    ]
+  },
+  "projects": [
+    {
+      "slug": "recall",
+      "name": "Recall",
+      "category": "core",
+      "source": "https://github.com/samzong/Recall",
+      "tagline": "Switch agents. Keep the memory.",
+      "rationale": "Two offset windows share an internal chamber, turning re-entry into structure without using a back arrow or database cylinder.",
+      "grid": [
+        "1111100",
+        "1000100",
+        "1011110",
+        "1010010",
+        "1010111",
+        "1000001",
+        "1111111"
+      ],
+      "accent": "blue",
+      "signal": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "slug": "rx",
+      "name": "rx",
+      "category": "core",
+      "source": "https://github.com/samzong/Recall/tree/main/crates/rx",
+      "tagline": "Route one provider into native agent harnesses.",
+      "rationale": "Two terminals share a central inversion, reading like an operator that does not exist yet still feels native.",
+      "grid": [
+        "1100011",
+        "0110110",
+        "0011100",
+        "0110110",
+        "0011100",
+        "0110110",
+        "1100011"
+      ],
+      "accent": "blue",
+      "signal": [
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "slug": "lathe",
+      "name": "lathe",
+      "category": "core",
+      "source": "https://github.com/lathe-cli/lathe",
+      "tagline": "Turn API contracts into agent-ready CLIs.",
+      "rationale": "An orthogonal billet is reorganized in one deliberate cut, leaving a stable L-shaped machine frame.",
+      "grid": [
+        "1100111",
+        "1100100",
+        "1100100",
+        "1100000",
+        "1101100",
+        "1100011",
+        "1111111"
+      ],
+      "accent": "blue",
+      "signal": [
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "slug": "kitup",
+      "name": "kitup",
+      "category": "core",
+      "source": "https://github.com/lathe-cli/kitup",
+      "tagline": "Install bundled Agent Skills into the right host.",
+      "rationale": "An outer package holds an inner module at a one-unit safety distance; the closed base signals installation rather than download.",
+      "grid": [
+        "0011100",
+        "0110110",
+        "1100011",
+        "1101011",
+        "1100011",
+        "0111110",
+        "0011100"
+      ],
+      "accent": "blue",
+      "signal": [
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "slug": "blueprint",
+      "name": "blueprint",
+      "category": "core",
+      "source": "https://github.com/samzong/blueprint",
+      "tagline": "From a brief to a shippable artifact.",
+      "rationale": "An open input compresses into a bounded output through a central stair, moving from ambiguous intent to a shippable artifact.",
+      "grid": [
+        "1111100",
+        "1000100",
+        "1011111",
+        "1010001",
+        "1011101",
+        "1000001",
+        "1111111"
+      ],
+      "accent": "blue",
+      "signal": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "slug": "gmc",
+      "name": "gmc",
+      "category": "core",
+      "source": "https://github.com/samzong/gmc",
+      "tagline": "Parallel worktrees for parallel AI agents.",
+      "rationale": "Two execution columns exchange state across a central bridge, then continue in parallel like concurrent work rather than a Git diagram.",
+      "grid": [
+        "1100011",
+        "1100011",
+        "1111111",
+        "0011100",
+        "1111111",
+        "1100011",
+        "1100011"
+      ],
+      "accent": "blue",
+      "signal": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "slug": "adit",
+      "name": "Adit",
+      "category": "core",
+      "source": "https://github.com/samzong/adit",
+      "tagline": "Speak notes into being, then keep what matters.",
+      "rationale": "A tall aperture protects a retained content column, reading as an entrance for captured thought rather than a microphone.",
+      "grid": [
+        "0011100",
+        "0110110",
+        "1100011",
+        "1100011",
+        "1111111",
+        "1100011",
+        "1100011"
+      ],
+      "accent": "blue",
+      "signal": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "slug": "agent-brains",
+      "name": "agent-brains",
+      "category": "core",
+      "source": "https://github.com/samzong/agent-brains",
+      "tagline": "A personal catalog of agent memory and operating rules.",
+      "rationale": "A dense shell contains interleaved internal structures, expressing loadable cognition without drawing a literal brain.",
+      "grid": [
+        "0111110",
+        "1101011",
+        "1011101",
+        "1110111",
+        "1011101",
+        "1101011",
+        "0111110"
+      ],
+      "accent": "blue",
+      "signal": [
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "slug": "macmusicplayer",
+      "name": "MacMusicPlayer",
+      "category": "mac",
+      "source": "https://github.com/samzong/MacMusicPlayer",
+      "tagline": "A clean, lightweight music player for macOS.",
+      "rationale": "Stepped density converges from both sides into a rhythmic center without using a note or play triangle.",
+      "grid": [
+        "1000001",
+        "1100011",
+        "1110111",
+        "0111110",
+        "0011100",
+        "0001000",
+        "0001000"
+      ],
+      "accent": "orange",
+      "signal": [
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "slug": "branchlight",
+      "name": "branchlight",
+      "category": "mac",
+      "source": "https://github.com/samzong/branchlight",
+      "tagline": "A quiet macOS menubar hub for GitHub work.",
+      "rationale": "A central trunk lights up before splitting into two quiet paths, making status visible without repeating the Git-node cliché.",
+      "grid": [
+        "0001000",
+        "0011100",
+        "0110110",
+        "1101011",
+        "0001000",
+        "0010100",
+        "0100010"
+      ],
+      "accent": "orange",
+      "signal": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "slug": "saveeye",
+      "name": "SaveEye",
+      "category": "mac",
+      "source": "https://github.com/samzong/SaveEye",
+      "tagline": "A minimalist macOS eye care reminder.",
+      "rationale": "A symmetric edge surrounds an offset focus, holding open-eye and closed-eye states in the same rest rhythm.",
+      "grid": [
+        "0011100",
+        "0110110",
+        "1101011",
+        "1011101",
+        "1101011",
+        "0110110",
+        "0011100"
+      ],
+      "accent": "orange",
+      "signal": [
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "slug": "mailbell",
+      "name": "mailbell",
+      "category": "mac",
+      "source": "https://github.com/samzong/mailbell",
+      "tagline": "A minimal macOS menu bar notifier for Gmail.",
+      "rationale": "Reception, aggregation, and a single alert point compress mail and notification into one compact character.",
+      "grid": [
+        "0011100",
+        "0110110",
+        "1100011",
+        "1111111",
+        "1100011",
+        "0111110",
+        "0001000"
+      ],
+      "accent": "orange",
+      "signal": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "slug": "mote",
+      "name": "mote",
+      "category": "mac",
+      "source": "https://github.com/samzong/mote",
+      "tagline": "Rewrite selected text with local model choice.",
+      "rationale": "A fragment enters from the upper left, crosses a rewrite chamber, and exits while the baseline preserves the original boundary.",
+      "grid": [
+        "1100000",
+        "0110000",
+        "0011110",
+        "0000110",
+        "0111100",
+        "1100000",
+        "1111111"
+      ],
+      "accent": "orange",
+      "signal": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "slug": "pared",
+      "name": "pared",
+      "category": "mac",
+      "source": "https://github.com/samzong/pared",
+      "tagline": "A minimal native macOS video compressor.",
+      "rationale": "A wide frame contracts toward the center and expands again, using negative space to show compression rather than a camera.",
+      "grid": [
+        "1111111",
+        "1000001",
+        "0111110",
+        "0011100",
+        "0111110",
+        "1000001",
+        "1111111"
+      ],
+      "accent": "orange",
+      "signal": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "slug": "logowallpaper",
+      "name": "LogoWallpaper",
+      "category": "mac",
+      "source": "https://github.com/samzong/LogoWallpaper",
+      "tagline": "Generate clean brand wallpapers across displays.",
+      "rationale": "A small mark sits inside a complete display field; the surrounding silence becomes a practical brand-safe area.",
+      "grid": [
+        "0011100",
+        "0010100",
+        "1111111",
+        "1000001",
+        "1011101",
+        "1000001",
+        "1111111"
+      ],
+      "accent": "orange",
+      "signal": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "slug": "configforge",
+      "name": "ConfigForge",
+      "category": "mac",
+      "source": "https://github.com/samzong/ConfigForge",
+      "tagline": "Manage SSH and Kubernetes configuration on macOS.",
+      "rationale": "Two configuration plates are pressed into one continuous structure, suggesting usable forged output without a gear.",
+      "grid": [
+        "1101100",
+        "1101111",
+        "0001100",
+        "1111111",
+        "0011000",
+        "1111011",
+        "0011011"
+      ],
+      "accent": "orange",
+      "signal": [
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "slug": "gofs",
+      "name": "gofs",
+      "category": "dev",
+      "source": "https://github.com/samzong/gofs",
+      "tagline": "A lightweight, fast HTTP file server.",
+      "rationale": "A file boundary is pierced by a horizontal channel with matching entry and exit, emphasizing service rather than folders.",
+      "grid": [
+        "1111100",
+        "1000100",
+        "1011111",
+        "1000001",
+        "1011101",
+        "1000001",
+        "1111111"
+      ],
+      "accent": "acid",
+      "signal": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "slug": "awire",
+      "name": "awire",
+      "category": "dev",
+      "source": "https://github.com/samzong/awire",
+      "tagline": "Route source events into delivery channels.",
+      "rationale": "A broad signal compresses into a narrow wire and expands on delivery, describing controlled routing rather than literal cable.",
+      "grid": [
+        "1100000",
+        "0110000",
+        "0011001",
+        "0001111",
+        "0011001",
+        "0110000",
+        "1100000"
+      ],
+      "accent": "acid",
+      "signal": [
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "slug": "prooflet",
+      "name": "prooflet",
+      "category": "dev",
+      "source": "https://github.com/samzong/prooflet",
+      "tagline": "The proof layer for prototypes.",
+      "rationale": "A diagonal claim crosses two discrete checks and lands in an evidence slot, preserving confirmation without drawing a checkmark.",
+      "grid": [
+        "1100000",
+        "0110000",
+        "0011000",
+        "0001100",
+        "0000110",
+        "0100011",
+        "0011110"
+      ],
+      "accent": "acid",
+      "signal": [
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ]
+    },
+    {
+      "slug": "gh-x",
+      "name": "gh-x",
+      "category": "dev",
+      "source": "https://github.com/samzong/gh-x",
+      "tagline": "Batch GitHub repository operations from the CLI.",
+      "rationale": "Multiple targets are crossed by one horizontal operator and resolved onto a shared command baseline.",
+      "grid": [
+        "1010101",
+        "1110111",
+        "0011100",
+        "1110111",
+        "1010101",
+        "0011100",
+        "1111111"
+      ],
+      "accent": "acid",
+      "signal": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "slug": "mm",
+      "name": "mm",
+      "category": "dev",
+      "source": "https://github.com/samzong/mm",
+      "tagline": "Multi-language maintenance CLI for documentation.",
+      "rationale": "Twin columns alternate across language layers, forming a maintenance loop with one open edge for continuous change.",
+      "grid": [
+        "1100011",
+        "1110111",
+        "1011101",
+        "1001001",
+        "1010001",
+        "1110111",
+        "1100011"
+      ],
+      "accent": "acid",
+      "signal": [
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "slug": "merge-scout",
+      "name": "merge-scout",
+      "category": "dev",
+      "source": "https://github.com/samzong/merge-scout",
+      "tagline": "Find GitHub issues worth your time.",
+      "rationale": "Distributed candidates narrow through successive stages into one viable exit, showing selection rather than binoculars.",
+      "grid": [
+        "1111111",
+        "1001001",
+        "1101011",
+        "0101010",
+        "0110110",
+        "0010100",
+        "0001000"
+      ],
+      "accent": "acid",
+      "signal": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "slug": "mdctl",
+      "name": "mdctl",
+      "category": "dev",
+      "source": "https://github.com/samzong/mdctl",
+      "tagline": "An AI-powered CLI for Markdown workflows.",
+      "rationale": "An M-shaped content structure lands on a command baseline, placing formatting, translation, and assets under one control surface.",
+      "grid": [
+        "1100011",
+        "1110111",
+        "1011101",
+        "1001001",
+        "1001001",
+        "0001000",
+        "1111111"
+      ],
+      "accent": "acid",
+      "signal": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "slug": "swagger-online",
+      "name": "swagger-online",
+      "category": "dev",
+      "source": "https://github.com/samzong/swagger-online",
+      "tagline": "Unify, search, and compare multiple API specs.",
+      "rationale": "Two specification columns join through a shared index, with repeated rails expressing comparison rather than document viewing.",
+      "grid": [
+        "1101100",
+        "1101100",
+        "1111111",
+        "0011000",
+        "1111111",
+        "0011011",
+        "0011011"
+      ],
+      "accent": "acid",
+      "signal": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "slug": "chrome-tabboost",
+      "name": "chrome-tabboost",
+      "category": "dev",
+      "source": "https://github.com/samzong/chrome-tabboost",
+      "tagline": "Bring focused workspace behavior to Chrome tabs.",
+      "rationale": "Several tabs rise onto one inner rail while an upper-right break lets the active tab exceed the browser default.",
+      "grid": [
+        "1111111",
+        "1000001",
+        "1011111",
+        "1000100",
+        "1011100",
+        "1000000",
+        "1111111"
+      ],
+      "accent": "acid",
+      "signal": [
+        [
+          4,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "slug": "ai-icon-generator",
+      "name": "ai-icon-generator",
+      "category": "dev",
+      "source": "https://github.com/samzong/ai-icon-generator",
+      "tagline": "Generate icons with image models.",
+      "rationale": "Sparse input crosses a generation chamber and resolves into a bounded output, avoiding the default AI sparkle.",
+      "grid": [
+        "1100000",
+        "1100100",
+        "0001111",
+        "0011001",
+        "1111011",
+        "1001001",
+        "1111111"
+      ],
+      "accent": "acid",
+      "signal": [
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          6,
+          6
+        ]
+      ]
+    },
+    {
+      "slug": "hf-model-downloader",
+      "name": "hf-model-downloader",
+      "category": "infra",
+      "source": "https://github.com/samzong/hf-model-downloader",
+      "tagline": "Download Hugging Face models without setup friction.",
+      "rationale": "A wide source narrows into a local base, showing model weights landing safely without a cloud-download arrow.",
+      "grid": [
+        "1000001",
+        "1100011",
+        "0110110",
+        "0011100",
+        "0001000",
+        "0111110",
+        "0011100"
+      ],
+      "accent": "violet",
+      "signal": [
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "slug": "mirrormate",
+      "name": "mirrormate",
+      "category": "infra",
+      "source": "https://github.com/samzong/mirrormate",
+      "tagline": "Inject mirrors into Docker build workflows.",
+      "rationale": "Perfectly mirrored sides leave an independent central channel, changing transport origin without changing the build target.",
+      "grid": [
+        "1100011",
+        "1110111",
+        "1011101",
+        "1001001",
+        "1011101",
+        "1110111",
+        "1100011"
+      ],
+      "accent": "violet",
+      "signal": [
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "slug": "convostore",
+      "name": "convostore",
+      "category": "infra",
+      "source": "https://github.com/samzong/convostore",
+      "tagline": "Normalize, trim, and store conversation context.",
+      "rationale": "Two conversation slots connect through an offset index, keeping continuity visible after history is trimmed.",
+      "grid": [
+        "1110111",
+        "1000101",
+        "1110111",
+        "0010000",
+        "1110111",
+        "1010001",
+        "1110111"
+      ],
+      "accent": "violet",
+      "signal": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "slug": "modelfs",
+      "name": "modelfs",
+      "category": "infra",
+      "source": "https://github.com/samzong/modelfs",
+      "tagline": "Declarative model-weight management for Kubernetes.",
+      "rationale": "Model blocks cross two storage boundaries through a shared slot, separating version and source from generic filesystem imagery.",
+      "grid": [
+        "1110111",
+        "1010101",
+        "1110101",
+        "0011100",
+        "1010111",
+        "1010101",
+        "1110111"
+      ],
+      "accent": "violet",
+      "signal": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "slug": "yt-search-api",
+      "name": "yt-search-api",
+      "category": "infra",
+      "source": "https://github.com/samzong/yt-search-api",
+      "tagline": "A fast API for proxied online video search.",
+      "rationale": "Multiple sources converge into a query point and enter a result window without using a magnifier or play button.",
+      "grid": [
+        "1100011",
+        "0110110",
+        "0011100",
+        "0001000",
+        "0001111",
+        "0001001",
+        "0001111"
+      ],
+      "accent": "violet",
+      "signal": [
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "slug": "lathe-scan",
+      "name": "lathe-scan",
+      "category": "infra",
+      "source": "https://github.com/lathe-cli/lathe-scan",
+      "tagline": "Discover API specs offline and read-only.",
+      "rationale": "A complete scan line crosses the Lathe frame, preserving parentage while turning read-only discovery into its own character.",
+      "grid": [
+        "1100111",
+        "1100100",
+        "1111111",
+        "1100000",
+        "1101100",
+        "1100011",
+        "1111111"
+      ],
+      "accent": "violet",
+      "signal": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          6,
+          2
+        ]
+      ]
+    },
+    {
+      "slug": "lathe-registry",
+      "name": "lathe-registry",
+      "category": "infra",
+      "source": "https://github.com/lathe-cli/lathe-registry",
+      "tagline": "A registry for reproducible Lathe CLI recipes.",
+      "rationale": "Alternating shelves and an index column form a reusable recipe store that inherits Lathe's orthogonal material language.",
+      "grid": [
+        "1111111",
+        "1001001",
+        "1111111",
+        "1001001",
+        "1111111",
+        "1001001",
+        "1111111"
+      ],
+      "accent": "violet",
+      "signal": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "slug": "codex-agents-local",
+      "name": "codex-agents-local",
+      "category": "dev",
+      "source": "https://github.com/samzong/codex-agents-local",
+      "tagline": "Layer local agent guidance without replacing Codex.",
+      "rationale": "A second instruction sheet enters an existing frame from one edge, showing a local overlay that changes context without replacing the host.",
+      "grid": [
+        "1111111",
+        "1000001",
+        "1011111",
+        "1010001",
+        "1011101",
+        "1000101",
+        "1111111"
+      ],
+      "accent": "acid",
+      "signal": [
+        [2, 2],
+        [3, 2],
+        [4, 2]
+      ]
+    },
+    {
+      "slug": "openclaw-gateway-tunnel",
+      "name": "openclaw-gateway-tunnel",
+      "category": "infra",
+      "source": "https://github.com/samzong/openclaw-gateway-tunnel",
+      "tagline": "Expose a local gateway through a controlled tunnel.",
+      "rationale": "Two unequal endpoints are joined by one narrow orthogonal passage, making the controlled crossing more important than either network edge.",
+      "grid": [
+        "1110000",
+        "1010000",
+        "1111111",
+        "0001001",
+        "1111111",
+        "0000101",
+        "0000111"
+      ],
+      "accent": "violet",
+      "signal": [
+        [3, 2],
+        [3, 3],
+        [3, 4]
+      ]
+    },
+    {
+      "slug": "brew-updater",
+      "name": "brew-updater",
+      "category": "dev",
+      "source": "https://github.com/samzong/brew-updater",
+      "tagline": "Watch and update Homebrew packages on their own clocks.",
+      "rationale": "A squared cycle wraps a stepped advance, combining repeated checks with a decisive package transition instead of a generic refresh arrow.",
+      "grid": [
+        "0111110",
+        "1100011",
+        "1100001",
+        "1111001",
+        "1001101",
+        "1100111",
+        "0111110"
+      ],
+      "accent": "acid",
+      "signal": [
+        [2, 3],
+        [3, 3],
+        [3, 4],
+        [4, 4]
+      ]
+    },
+    {
+      "slug": "prom-etl-db",
+      "name": "prom-etl-db",
+      "category": "infra",
+      "source": "https://github.com/samzong/prom-etl-db",
+      "tagline": "Move scheduled Prometheus queries into MySQL.",
+      "rationale": "A metric cell becomes a pipeline and resolves into three storage shelves, preserving the extract-to-load sequence in one continuous route.",
+      "grid": [
+        "1110000",
+        "1010000",
+        "1111111",
+        "0001001",
+        "0011111",
+        "0010101",
+        "0011111"
+      ],
+      "accent": "violet",
+      "signal": [
+        [3, 2],
+        [4, 2],
+        [5, 2]
+      ]
+    },
+    {
+      "slug": "cli-template",
+      "name": "cli-template",
+      "category": "dev",
+      "source": "https://github.com/samzong/cli-template",
+      "tagline": "Start a production-ready Go CLI from a proven mold.",
+      "rationale": "A rigid outer mold contains two deliberately incomplete command forms, representing reusable constraints rather than a copied finished product.",
+      "grid": [
+        "1111111",
+        "1000001",
+        "1011101",
+        "1010001",
+        "1010111",
+        "1000001",
+        "1111111"
+      ],
+      "accent": "acid",
+      "signal": [
+        [2, 2],
+        [3, 2],
+        [4, 2]
+      ]
+    },
+    {
+      "slug": "n8n-trans",
+      "name": "n8n-trans",
+      "category": "dev",
+      "source": "https://github.com/samzong/n8n-trans",
+      "tagline": "Carry interface language across n8n builds.",
+      "rationale": "Two text blocks cross through a shared translation cell and emerge with their structure preserved, avoiding flags or letterform clichés.",
+      "grid": [
+        "1110011",
+        "1010010",
+        "1111110",
+        "0011100",
+        "0111111",
+        "0100101",
+        "1100111"
+      ],
+      "accent": "acid",
+      "signal": [
+        [2, 3],
+        [3, 3],
+        [4, 3]
+      ]
+    },
+    {
+      "slug": "iframe-dashboard",
+      "name": "iframe-dashboard",
+      "category": "dev",
+      "source": "https://github.com/samzong/iframe-dashboard",
+      "tagline": "Organize many embedded pages into one workspace.",
+      "rationale": "A full browser frame contains a three-pane inner layout, making containment and switching legible without drawing a literal dashboard chart.",
+      "grid": [
+        "1111111",
+        "1000001",
+        "1011101",
+        "1010101",
+        "1011111",
+        "1000001",
+        "1111111"
+      ],
+      "accent": "acid",
+      "signal": [
+        [2, 2],
+        [3, 2],
+        [4, 2]
+      ]
+    },
+    {
+      "slug": "prompts",
+      "name": "prompts",
+      "category": "dev",
+      "source": "https://github.com/samzong/prompts",
+      "tagline": "Keep reusable prompts in one native workspace.",
+      "rationale": "A prompt source feeds a vertical stack of reusable entries through one shared input rail, emphasizing retrieval over a chat bubble.",
+      "grid": [
+        "1111100",
+        "1000100",
+        "1111111",
+        "0010001",
+        "0011111",
+        "0010001",
+        "0011111"
+      ],
+      "accent": "acid",
+      "signal": [
+        [5, 2],
+        [6, 2],
+        [2, 3]
+      ]
+    }
+  ]
+}

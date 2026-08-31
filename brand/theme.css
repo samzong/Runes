@@ -1,0 +1,25 @@
+:root {
+  --runes-ink: #0a0a09;
+  --runes-paper: #f2f0e9;
+  --runes-white: #ffffff;
+  --runes-blue: #225cff;
+  --runes-acid: #d8ff38;
+  --runes-orange: #ff5a36;
+  --runes-violet: #7b61ff;
+  --runes-muted: #77756e;
+  --runes-line: color-mix(in srgb, var(--runes-ink) 16%, transparent);
+  --runes-field: var(--runes-blue);
+  --runes-signal: var(--runes-acid);
+  --runes-radius-control: 6px;
+  --runes-radius-surface: 0;
+  --runes-font-mono: "Ubuntu Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --runes-font-display: Arial, Helvetica, sans-serif;
+  --runes-font-technical: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+[data-runes-theme="dark"] {
+  --runes-ink: #f2f0e9;
+  --runes-paper: #0a0a09;
+  --runes-muted: #a9a69d;
+  --runes-line: color-mix(in srgb, var(--runes-ink) 20%, transparent);
+}

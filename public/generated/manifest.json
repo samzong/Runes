@@ -1,0 +1,1308 @@
+{
+  "system": "Runes",
+  "version": 1,
+  "master": {
+    "slug": "runes",
+    "name": "Runes",
+    "category": "system",
+    "accent": "blue",
+    "source": "https://github.com/samzong/Runes",
+    "files": {
+      "public": [
+        "mark.svg",
+        "mark-inverse.svg",
+        "mark-duotone.svg",
+        "horizontal.svg",
+        "stacked.svg",
+        "badge.svg",
+        "app-icon.svg",
+        "social-avatar.svg",
+        "menubar.svg",
+        "og.svg",
+        "x-header.svg",
+        "title-slide.svg"
+      ],
+      "icns": "macos",
+      "windows": [
+        16,
+        24,
+        32,
+        48,
+        256
+      ]
+    }
+  },
+  "projects": [
+    {
+      "slug": "recall",
+      "name": "Recall",
+      "category": "core",
+      "accent": "blue",
+      "source": "https://github.com/samzong/Recall",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "rx",
+      "name": "rx",
+      "category": "core",
+      "accent": "blue",
+      "source": "https://github.com/samzong/Recall/tree/main/crates/rx",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "lathe",
+      "name": "lathe",
+      "category": "core",
+      "accent": "blue",
+      "source": "https://github.com/lathe-cli/lathe",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "kitup",
+      "name": "kitup",
+      "category": "core",
+      "accent": "blue",
+      "source": "https://github.com/lathe-cli/kitup",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "blueprint",
+      "name": "blueprint",
+      "category": "core",
+      "accent": "blue",
+      "source": "https://github.com/samzong/blueprint",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "gmc",
+      "name": "gmc",
+      "category": "core",
+      "accent": "blue",
+      "source": "https://github.com/samzong/gmc",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "adit",
+      "name": "Adit",
+      "category": "core",
+      "accent": "blue",
+      "source": "https://github.com/samzong/adit",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "agent-brains",
+      "name": "agent-brains",
+      "category": "core",
+      "accent": "blue",
+      "source": "https://github.com/samzong/agent-brains",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "macmusicplayer",
+      "name": "MacMusicPlayer",
+      "category": "mac",
+      "accent": "orange",
+      "source": "https://github.com/samzong/MacMusicPlayer",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "branchlight",
+      "name": "branchlight",
+      "category": "mac",
+      "accent": "orange",
+      "source": "https://github.com/samzong/branchlight",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "saveeye",
+      "name": "SaveEye",
+      "category": "mac",
+      "accent": "orange",
+      "source": "https://github.com/samzong/SaveEye",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "mailbell",
+      "name": "mailbell",
+      "category": "mac",
+      "accent": "orange",
+      "source": "https://github.com/samzong/mailbell",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "mote",
+      "name": "mote",
+      "category": "mac",
+      "accent": "orange",
+      "source": "https://github.com/samzong/mote",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "pared",
+      "name": "pared",
+      "category": "mac",
+      "accent": "orange",
+      "source": "https://github.com/samzong/pared",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "logowallpaper",
+      "name": "LogoWallpaper",
+      "category": "mac",
+      "accent": "orange",
+      "source": "https://github.com/samzong/LogoWallpaper",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "configforge",
+      "name": "ConfigForge",
+      "category": "mac",
+      "accent": "orange",
+      "source": "https://github.com/samzong/ConfigForge",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "gofs",
+      "name": "gofs",
+      "category": "dev",
+      "accent": "acid",
+      "source": "https://github.com/samzong/gofs",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "awire",
+      "name": "awire",
+      "category": "dev",
+      "accent": "acid",
+      "source": "https://github.com/samzong/awire",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "prooflet",
+      "name": "prooflet",
+      "category": "dev",
+      "accent": "acid",
+      "source": "https://github.com/samzong/prooflet",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "gh-x",
+      "name": "gh-x",
+      "category": "dev",
+      "accent": "acid",
+      "source": "https://github.com/samzong/gh-x",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "mm",
+      "name": "mm",
+      "category": "dev",
+      "accent": "acid",
+      "source": "https://github.com/samzong/mm",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "merge-scout",
+      "name": "merge-scout",
+      "category": "dev",
+      "accent": "acid",
+      "source": "https://github.com/samzong/merge-scout",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "mdctl",
+      "name": "mdctl",
+      "category": "dev",
+      "accent": "acid",
+      "source": "https://github.com/samzong/mdctl",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "swagger-online",
+      "name": "swagger-online",
+      "category": "dev",
+      "accent": "acid",
+      "source": "https://github.com/samzong/swagger-online",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "chrome-tabboost",
+      "name": "chrome-tabboost",
+      "category": "dev",
+      "accent": "acid",
+      "source": "https://github.com/samzong/chrome-tabboost",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "ai-icon-generator",
+      "name": "ai-icon-generator",
+      "category": "dev",
+      "accent": "acid",
+      "source": "https://github.com/samzong/ai-icon-generator",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "hf-model-downloader",
+      "name": "hf-model-downloader",
+      "category": "infra",
+      "accent": "violet",
+      "source": "https://github.com/samzong/hf-model-downloader",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "mirrormate",
+      "name": "mirrormate",
+      "category": "infra",
+      "accent": "violet",
+      "source": "https://github.com/samzong/mirrormate",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "convostore",
+      "name": "convostore",
+      "category": "infra",
+      "accent": "violet",
+      "source": "https://github.com/samzong/convostore",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "modelfs",
+      "name": "modelfs",
+      "category": "infra",
+      "accent": "violet",
+      "source": "https://github.com/samzong/modelfs",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "yt-search-api",
+      "name": "yt-search-api",
+      "category": "infra",
+      "accent": "violet",
+      "source": "https://github.com/samzong/yt-search-api",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "lathe-scan",
+      "name": "lathe-scan",
+      "category": "infra",
+      "accent": "violet",
+      "source": "https://github.com/lathe-cli/lathe-scan",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "lathe-registry",
+      "name": "lathe-registry",
+      "category": "infra",
+      "accent": "violet",
+      "source": "https://github.com/lathe-cli/lathe-registry",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "codex-agents-local",
+      "name": "codex-agents-local",
+      "category": "dev",
+      "accent": "acid",
+      "source": "https://github.com/samzong/codex-agents-local",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "openclaw-gateway-tunnel",
+      "name": "openclaw-gateway-tunnel",
+      "category": "infra",
+      "accent": "violet",
+      "source": "https://github.com/samzong/openclaw-gateway-tunnel",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "brew-updater",
+      "name": "brew-updater",
+      "category": "dev",
+      "accent": "acid",
+      "source": "https://github.com/samzong/brew-updater",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "prom-etl-db",
+      "name": "prom-etl-db",
+      "category": "infra",
+      "accent": "violet",
+      "source": "https://github.com/samzong/prom-etl-db",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "cli-template",
+      "name": "cli-template",
+      "category": "dev",
+      "accent": "acid",
+      "source": "https://github.com/samzong/cli-template",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "n8n-trans",
+      "name": "n8n-trans",
+      "category": "dev",
+      "accent": "acid",
+      "source": "https://github.com/samzong/n8n-trans",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "iframe-dashboard",
+      "name": "iframe-dashboard",
+      "category": "dev",
+      "accent": "acid",
+      "source": "https://github.com/samzong/iframe-dashboard",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    },
+    {
+      "slug": "prompts",
+      "name": "prompts",
+      "category": "dev",
+      "accent": "acid",
+      "source": "https://github.com/samzong/prompts",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
+    }
+  ]
+}
