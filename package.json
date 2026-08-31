@@ -22,7 +22,7 @@
     "lucide-react": "1.31.0",
     "react": "19.2.6",
     "react-dom": "19.2.6",
-    "react-server-dom-webpack": "19.2.6",
+    "react-server-dom-webpack": "19.2.8",
     "tailwind-merge": "3.6.0",
     "vinext": "1.0.0-beta.5"
   },
@@ -45,7 +45,7 @@
     "sharp": "0.35.4",
     "tailwindcss": "4.2.1",
     "typescript": "5.9.3",
-    "vite": "8.0.13",
+    "vite": "8.0.16",
     "wrangler": "4.92.0"
   },
   "type": "module"
