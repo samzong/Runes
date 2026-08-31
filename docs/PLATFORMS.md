@@ -16,7 +16,7 @@ The master geometry stays inside a 62.5% safe area so circular avatars do not cl
 
 The primary app source is a square, unmasked 1024×1024 SVG and PNG. Rounded corners are previewed on the catalog website but are not baked into the deliverable. Apple applies the platform mask.
 
-On macOS the generator also creates a complete iconset and packages it with `iconutil` as `app-icon.icns`.
+The generator also creates a complete iconset and packages it as `app-icon.icns` with the cross-platform JavaScript encoder used by the asset pipeline.
 
 Reference: [Apple Human Interface Guidelines — App icons](https://developer.apple.com/design/human-interface-guidelines/app-icons) and [Creating your app icon using Icon Composer](https://developer.apple.com/documentation/xcode/creating-your-app-icon-using-icon-composer).
 
@@ -60,4 +60,4 @@ Presentation exports intentionally contain no speaker name, event, date, or edit
 
 Exports do not contain timestamps. Wordmarks are converted to outlines. `artifacts/SHA256SUMS` covers every generated file except itself, and `pnpm assets:check` recomputes the hashes.
 
-ICNS generation requires macOS. All other assets are cross-platform. The GitHub Actions macOS job publishes a complete downloadable artifact pack.
+All outputs, including ICNS, are generated cross-platform. CI is configured to verify the complete contract on Ubuntu and publish a complete downloadable artifact pack from its asset job.

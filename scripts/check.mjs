@@ -2,13 +2,16 @@ import { createHash } from "node:crypto";
 import { access, readFile, readdir } from "node:fs/promises";
 import { dirname, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
+import { unzipSync } from "fflate";
 import sharp from "sharp";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const webRoot = join(root, "public", "generated");
 const artifactsRoot = join(root, "artifacts");
+const downloadsRoot = join(root, "public", "downloads");
 const data = JSON.parse(await readFile(join(root, "brand", "runes.json"), "utf8"));
 const manifest = JSON.parse(await readFile(join(webRoot, "manifest.json"), "utf8"));
+const downloadManifest = JSON.parse(await readFile(join(downloadsRoot, "manifest.json"), "utf8"));
 const entities = [data.master, ...data.projects];
 const manifestEntities = [manifest.master, ...manifest.projects];
 const expectedSvg = [
@@ -25,6 +28,7 @@ const expectedSvg = [
   "title-slide.svg",
   "x-header.svg",
 ];
+const expectedPackages = ["complete", "logo", "social", "apple", "windows", "web", "presentation"];
 
 function assert(condition, message) {
   if (!condition) throw new Error(message);
@@ -63,7 +67,8 @@ for (const entity of entities) {
   await assertRaster(join(artifactsRoot, entity.slug, "social", "open-graph-1200x630.png"), 1200, 630);
   await assertRaster(join(artifactsRoot, entity.slug, "presentation", "title-slide-1920x1080.png"), 1920, 1080);
   await access(join(artifactsRoot, entity.slug, "windows", "icon.ico"));
-  if (process.platform === "darwin") await access(join(artifactsRoot, entity.slug, "apple", "app-icon.icns"));
+  const icns = await readFile(join(artifactsRoot, entity.slug, "apple", "app-icon.icns"));
+  assert(icns.subarray(0, 4).toString() === "icns", `${entity.slug} ICNS header is invalid`);
 }
 
 const expectedSums = new Map(
@@ -80,4 +85,40 @@ for (const path of artifactFiles) {
   assert(expectedSums.get(name) === actual, `Checksum mismatch: ${name}`);
 }
 
-process.stdout.write(`${JSON.stringify({ identities: entities.length, publicSvg: entities.length * expectedSvg.length, artifacts: artifactFiles.length, fontDependentTextNodes: 0 }, null, 2)}\n`);
+assert(downloadManifest.identities.length === entities.length, "Download identity count differs");
+for (const entity of entities) {
+  const entry = downloadManifest.identities.find((candidate) => candidate.slug === entity.slug);
+  assert(entry, `Download manifest is missing ${entity.slug}`);
+  assert(
+    JSON.stringify(Object.keys(entry.packages).sort()) === JSON.stringify(expectedPackages.toSorted()),
+    `${entity.slug} download package contract differs`,
+  );
+  for (const [group, pack] of Object.entries(entry.packages)) {
+    const source = join(root, "public", pack.path);
+    const content = await readFile(source);
+    assert(content.byteLength === pack.bytes, `${entity.slug}/${group} download size differs`);
+    assert(
+      createHash("sha256").update(content).digest("hex") === pack.sha256,
+      `${entity.slug}/${group} download checksum differs`,
+    );
+    const entries = Object.keys(unzipSync(content));
+    assert(entries.length === pack.files, `${entity.slug}/${group} download file count differs`);
+    if (group === "complete") {
+      assert(entries.includes(`${entity.slug}/apple/app-icon.icns`), `${entity.slug} complete pack lacks ICNS`);
+      assert(entries.includes(`${entity.slug}/windows/icon.ico`), `${entity.slug} complete pack lacks ICO`);
+    }
+  }
+}
+
+const familyContent = await readFile(join(root, "public", downloadManifest.family.path));
+assert(familyContent.byteLength === downloadManifest.family.bytes, "Family download size differs");
+assert(
+  createHash("sha256").update(familyContent).digest("hex") === downloadManifest.family.sha256,
+  "Family download checksum differs",
+);
+assert(
+  Object.keys(unzipSync(familyContent)).length === downloadManifest.family.files,
+  "Family download file count differs",
+);
+
+process.stdout.write(`${JSON.stringify({ identities: entities.length, publicSvg: entities.length * expectedSvg.length, artifacts: artifactFiles.length, downloadPackages: entities.length * expectedPackages.length + 1, fontDependentTextNodes: 0 }, null, 2)}\n`);

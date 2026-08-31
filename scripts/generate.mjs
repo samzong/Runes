@@ -1,4 +1,3 @@
-import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
 import {
   access,
@@ -10,6 +9,7 @@ import {
 } from "node:fs/promises";
 import { dirname, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
+import { IconIcns } from "@shockpkg/icon-encoder";
 import { openSync } from "fontkit";
 import pngToIco from "png-to-ico";
 import sharp from "sharp";
@@ -215,9 +215,25 @@ async function buildProject(project) {
     [1024, "icon_512x512@2x.png"],
   ];
   for (const [size, name] of iconset) await render(sources["app-icon.svg"], join(iconsetDir, name), size);
-  if (process.platform === "darwin") {
-    execFileSync("iconutil", ["-c", "icns", iconsetDir, "-o", join(appleDir, "app-icon.icns")]);
+
+  const icns = new IconIcns();
+  icns.toc = true;
+  const icnsSources = [
+    ["icon_32x32@2x.png", "ic12"],
+    ["icon_128x128.png", "ic07"],
+    ["icon_128x128@2x.png", "ic13"],
+    ["icon_256x256.png", "ic08"],
+    ["icon_16x16.png", "ic04"],
+    ["icon_256x256@2x.png", "ic14"],
+    ["icon_512x512.png", "ic09"],
+    ["icon_32x32.png", "ic05"],
+    ["icon_512x512@2x.png", "ic10"],
+    ["icon_16x16@2x.png", "ic11"],
+  ];
+  for (const [name, type] of icnsSources) {
+    await icns.addFromPng(await readFile(join(iconsetDir, name)), [type], true);
   }
+  await writeFile(join(appleDir, "app-icon.icns"), icns.encode());
 
   return {
     slug: project.slug,

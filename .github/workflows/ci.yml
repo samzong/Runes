@@ -21,10 +21,7 @@ jobs:
           node-version: 24
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - run: pnpm assets:build
-      - run: pnpm assets:check
-      - run: pnpm build
-      - run: pnpm lint
+      - run: pnpm check
 
   asset-pack:
     runs-on: macos-latest
