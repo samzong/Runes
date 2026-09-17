@@ -1303,6 +1303,37 @@
           256
         ]
       }
+    },
+    {
+      "slug": "combe",
+      "name": "Combe",
+      "category": "mac",
+      "accent": "orange",
+      "source": "https://github.com/samzong/combe",
+      "files": {
+        "public": [
+          "mark.svg",
+          "mark-inverse.svg",
+          "mark-duotone.svg",
+          "horizontal.svg",
+          "stacked.svg",
+          "badge.svg",
+          "app-icon.svg",
+          "social-avatar.svg",
+          "menubar.svg",
+          "og.svg",
+          "x-header.svg",
+          "title-slide.svg"
+        ],
+        "icns": "macos",
+        "windows": [
+          16,
+          24,
+          32,
+          48,
+          256
+        ]
+      }
     }
   ]
 }

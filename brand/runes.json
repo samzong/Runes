@@ -1153,6 +1153,29 @@
         [6, 2],
         [2, 3]
       ]
+    },
+    {
+      "slug": "combe",
+      "name": "Combe",
+      "category": "mac",
+      "source": "https://github.com/samzong/combe",
+      "tagline": "Sit a shell in the worktree you click.",
+      "rationale": "Two ridges drop into a protected floor; the inner bar is the occupied seat, so the character reads as a place you sit rather than a prompt or a Git tree.",
+      "grid": [
+        "1100011",
+        "1100011",
+        "1000001",
+        "1011101",
+        "0011100",
+        "0010100",
+        "0011100"
+      ],
+      "accent": "orange",
+      "signal": [
+        [2, 3],
+        [3, 3],
+        [4, 3]
+      ]
     }
   ]
 }
